@@ -4,6 +4,17 @@
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../../node_modules/bootstrap/scss/functions";
 
+$grid-breakpoints: (
+    xs: 0,
+    sm: 500px, 
+    md: 800px,
+    lg: 1100px,
+    xl:1400px,
+);
+$grid-columns:16;
+
+$grid-gutter-width: 2rem;
+
 // 2. Include any default variable overrides here
 
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
